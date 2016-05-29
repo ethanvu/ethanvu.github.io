@@ -1,0 +1,27 @@
+/* Background */
+body {
+	background-image:  url("jupiterMoonISS.jpg");
+	background-position: left top;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.info {
+	width: 80%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.info h1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	clear: left;
+}
+
+span {
+	color: #330033;
+}

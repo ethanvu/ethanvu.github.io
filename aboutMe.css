@@ -1,0 +1,51 @@
+/* Background */
+body {
+	background-image:  url("annandale.jpg");
+	background-position: left top;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+/* Resume */
+.resume {
+	height: 80%;
+    width: 1100px;
+	left: -800px;
+	position: fixed;
+}
+
+.resume-element {
+	display: inline;
+	float: left;
+}
+
+#myResume {
+	height: 100%;
+	width: 800px;
+}
+
+#tab {
+	transform: rotate(90deg);
+	transform-origin: left bottom 0;
+	padding: 10px;
+	left: 800px;
+	color: gray;
+	background-color: #330033;
+}
+
+/* About Me */
+.bio {
+	width: 80%;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: rgba(128, 128, 128, 0.5);
+}
+
+.bio h1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	clear: left;
+}
