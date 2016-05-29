@@ -43,6 +43,11 @@ body {
     color: gray;
 }
 
+.nav li a:-moz-any-link {
+    text-decoration: none;
+    color: gray;
+}
+
 .container {
 	font-family: Arial, Helvetica, sans-serif;
 }
