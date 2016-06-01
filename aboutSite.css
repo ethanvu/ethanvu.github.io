@@ -8,11 +8,9 @@ body {
 
 .info {
 	width: 80%;
-	padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
-	background-color: rgba(128, 128, 128, 0.5);
 }
 
 .info h1 {
@@ -20,6 +18,19 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	clear: left;
+}
+
+.full {
+	background-color: rgba(128, 128, 128, 0.5);
+	padding: 5px;
+}
+
+.small {
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(128, 128, 128, 0.4);
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 span {
