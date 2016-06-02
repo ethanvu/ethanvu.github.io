@@ -1,9 +1,0 @@
-TO DO LIST
-
-Make background of index.html cycle through pictures automatically
-Create games index
-Create Fallout 3 page
-Create OOTP16 page
-Create Mass Effect 3 page
-Create baseball index
-Add music to about me page?
