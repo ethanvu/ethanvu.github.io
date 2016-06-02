@@ -7,7 +7,7 @@
 }
 
 #ravines {
-	background: url("ravines.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/ravines.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -15,7 +15,7 @@
 }
 
 #burressHall {
-	background: url("burressHall.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/burressHall.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -23,7 +23,7 @@
 }
 
 #niagraFalls {
-	background: url("niagraFalls.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/niagraFalls.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -31,7 +31,7 @@
 }
 
 #powerLines {
-	background: url("powerLines.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/powerLines.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -39,7 +39,7 @@
 }
 
 #westVirginia {
-	background: url("westVirginia.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/westVirginia.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 #cows {
-	background: url("cows.jpg") no-repeat center center fixed;
+	background: url("index_bkgrnd/cows.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
