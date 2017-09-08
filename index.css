@@ -6,12 +6,21 @@
 	z-index: 0;
 }
 
+.background {
+	display:block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
 #ravines {
 	background: url("index_bkgrnd/ravines.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	opacity: 1;
 }
 
 #burressHall {
@@ -52,17 +61,6 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-.background {
-	display: none;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-}
-
-.current-background {
-	display: block;
 }
 
 /* Main part of the page */
