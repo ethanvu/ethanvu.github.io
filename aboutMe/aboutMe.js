@@ -1,22 +1,53 @@
-$(document).ready(function(){
-	function openResume() {
-		$(".resume").animate({left: "0px"}, 700);
-	}
-	function closeResume() {
-		$(".resume").animate({left: "-800px"}, 700);
-	}
-	$("#tab").click(function() {
-		if ($(this).hasClass("closed")) {
+/**
+ * Animates the resume to be visible.
+ */
+function openResume() {
+	var elem = document.getElementsByClassName("resume");
+    var pos = -800;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (pos == 0) {
+            clearInterval(id);
+        }
+		else {
+            pos++;
+            elem.style.left = pos + 'px';
+        }
+    }
+}
+
+/**
+ * Animates the resume to be hidden.
+ */
+function closeResume() {
+	var elem = document.getElementsByClassName("resume");
+    var pos = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (pos == -800) {
+            clearInterval(id);
+        }
+		else {
+            pos--;
+            elem.style.left = pos + 'px';
+        }
+    }
+}
+
+window.onload = function() {
+	var tab = document.getElementById("tab").
+	tab.addEventListener("click", function() {
+		if (tab.classList.contains("closed")) {
 			openResume();
-			$(this).text("Click Here To Close My Resume");
-			$(this).removeClass("closed");
-			$(this).addClass("opened");
+			tab.innerHTML = "Click Here To Close My Resume";
+			tab.classList.remove("closed");
+			tab.classList.add("opened");
 		}
-		else if ($(this).hasClass("opened")) {
+		else if (tab.classList.contains("opened")) {
 			closeResume();
-			$(this).text("Click Here To View My Resume");
-			$(this).removeClass("opened");
-			$(this).addClass("closed");
+			tab.innerHTML = "Click Here To View My Resume";
+			tab.classList.remove("opened");
+			tab.classList.add("closed");
 		}
 	});
-});
+};
