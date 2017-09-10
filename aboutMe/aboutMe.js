@@ -10,8 +10,8 @@ function openResume() {
             clearInterval(id);
         }
 		else {
-            pos++;
-            elem.style.left = pos + 'px';
+            pos += 10;
+            elem[0].style.left = pos + 'px';
         }
     }
 }
@@ -28,8 +28,8 @@ function closeResume() {
             clearInterval(id);
         }
 		else {
-            pos--;
-            elem.style.left = pos + 'px';
+            pos -= 10;
+            elem[0].style.left = pos + 'px';
         }
     }
 }
