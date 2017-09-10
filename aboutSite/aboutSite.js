@@ -26,7 +26,7 @@ function fade(element) {
 function unfade(element) {
 	var op = 0;
 	var timer = setInterval(function () {
-		if (op >= 1|| !document.hasFocus()) {
+		if (op >= 1) {
 			element.style.opacity = 1;
 			element.style.filter = "alpha(opacity=100)";
 			clearInterval(timer);
@@ -40,11 +40,11 @@ function unfade(element) {
 
 window.onload = function(){
 	document.getElementById("hide").addEventListener("click", function() {
-		fade(document.getElementsByClass("full")[0]);
-		unfade(document.getElementsByClass("small")[0]);
+		fade(document.getElementsByClassName("full")[0]);
+		unfade(document.getElementsByClassName("small")[0]);
 	});
 	document.getElementById("show").addEventListener("click", function() {
-		fade(document.getElementsByClass("small")[0]);
-		unfade(document.getElementsByClass("full")[0]);
+		fade(document.getElementsByClassName("small")[0]);
+		unfade(document.getElementsByClassName("full")[0]);
 	});
 };
