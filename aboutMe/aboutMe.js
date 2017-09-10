@@ -35,7 +35,7 @@ function closeResume() {
 }
 
 window.onload = function() {
-	var tab = document.getElementById("tab").
+	var tab = document.getElementById("tab");
 	tab.addEventListener("click", function() {
 		if (tab.classList.contains("closed")) {
 			openResume();
