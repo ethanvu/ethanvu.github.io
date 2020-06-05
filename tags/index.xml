@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Ethan Vu</title>
+    <link>https://ethanvu.github.io/tags/</link>
+    <description>Recent content in Tags on Ethan Vu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2020, ethavu, Weru, and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 03 Jun 2020 00:25:40 -0400</lastBuildDate>
+    
+	<atom:link href="https://ethanvu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4</title>
+      <link>https://ethanvu.github.io/tags/4/</link>
+      <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cook, Serve, Delicious!</title>
+      <link>https://ethanvu.github.io/tags/cook-serve-delicious/</link>
+      <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/cook-serve-delicious/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video game</title>
+      <link>https://ethanvu.github.io/tags/video-game/</link>
+      <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/video-game/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
