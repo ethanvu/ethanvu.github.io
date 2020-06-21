@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>video game on Ethan Vu</title>
-    <link>https://ethanvu.github.io/tags/video-game/</link>
-    <description>Recent content in video game on Ethan Vu</description>
+    <title>Mass Effect on Ethan Vu</title>
+    <link>https://ethanvu.github.io/tags/mass-effect/</link>
+    <description>Recent content in Mass Effect on Ethan Vu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020, ethavu, Weru, and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sun, 21 Jun 2020 14:25:03 -0400</lastBuildDate>
     
-	<atom:link href="https://ethanvu.github.io/tags/video-game/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethanvu.github.io/tags/mass-effect/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>https://ethanvu.github.io/post/linux-gaming/modding-mass-effect/</guid>
       <description>Introduction Valve&amp;rsquo;s Proton allows Steam users to run games that don&amp;rsquo;t have a native Linux implementation on their Linux machines. It&amp;rsquo;s amazing. Mass Effect is has a Gold rating on ProtonDB which means it runs well when using Proton, with minor adjustments. If you have the game on Origin or you have a physical copy, you can also play on Linux, but you&amp;rsquo;ll have to use Lutris or something similar instead.</description>
-    </item>
-    
-    <item>
-      <title>Cook, Serve, Delicious! (2012) Review</title>
-      <link>https://ethanvu.github.io/post/video-game-reviews/cook-serve-delicious-2012/</link>
-      <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
-      
-      <guid>https://ethanvu.github.io/post/video-game-reviews/cook-serve-delicious-2012/</guid>
-      <description>A couple of months ago, I bought a mechanical keyboard for $150 and a coworker was surprised when I told him. He asked why I wouldn&amp;rsquo;t get an office keyboard for a tenth of the price. Clearly he&amp;rsquo;s never beaten Cook, Serve, Delicious! on extreme difficulty or else he would know.
-For each tug at a wine&amp;rsquo;s cork, each pounding of a tenderizer onto a chicken breast, each ingredient added to a salad bowl, there is visceral feedback, both audio and touch.</description>
     </item>
     
   </channel>

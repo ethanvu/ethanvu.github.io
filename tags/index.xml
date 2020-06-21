@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020, ethavu, Weru, and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Wed, 03 Jun 2020 00:25:40 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2020 14:25:03 -0400</lastBuildDate>
     
 	<atom:link href="https://ethanvu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>linux</title>
+      <link>https://ethanvu.github.io/tags/linux/</link>
+      <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mass Effect</title>
+      <link>https://ethanvu.github.io/tags/mass-effect/</link>
+      <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/mass-effect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mass Effect series</title>
+      <link>https://ethanvu.github.io/tags/mass-effect-series/</link>
+      <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/mass-effect-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video game</title>
+      <link>https://ethanvu.github.io/tags/video-game/</link>
+      <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/video-game/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>4</title>
@@ -31,11 +67,20 @@
     </item>
     
     <item>
-      <title>video game</title>
-      <link>https://ethanvu.github.io/tags/video-game/</link>
+      <title>Cook, Serve, Delicious! series</title>
+      <link>https://ethanvu.github.io/tags/cook-serve-delicious-series/</link>
       <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
       
-      <guid>https://ethanvu.github.io/tags/video-game/</guid>
+      <guid>https://ethanvu.github.io/tags/cook-serve-delicious-series/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://ethanvu.github.io/tags/review/</link>
+      <pubDate>Wed, 03 Jun 2020 00:25:40 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/tags/review/</guid>
       <description></description>
     </item>
     
