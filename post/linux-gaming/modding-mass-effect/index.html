@@ -82,12 +82,12 @@
 <p>Finally, this guide is not exhaustive as it&rsquo;s entirely based off of my experience.  There might be multiple ways to install these mods or some steps that aren&rsquo;t actually required.  If you have any interesting information about installing mods for Mass Effect on Linux, let me know!</p>
 <h1 id="install-and-run-your-game-once">Install and run your game once</h1>
 <p>First, install a fresh copy of Mass Effect.  Then run the game to make sure it works and so that Steam creates compatibility files that it needs for Proton to work its magic.</p>
-<p>I highly recommend that you backup your game if you have the storage space because it&rsquo;s possible you&rsquo;ll mess up and need to reinstall.  If you have any saves in /home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Save/, make sure to back those up too.</p>
+<p>I highly recommend that you backup your game if you have the storage space because it&rsquo;s possible you&rsquo;ll mess up and need to reinstall.  If you have any saves in <code>/home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Save/</code>, make sure to back those up too.</p>
 <h1 id="installing-dlc--the-audio-issue">Installing DLC + The Audio Issue</h1>
 <p>Next, you should install at least the Bring Down the Sky DLC first because some mods, like ME1 Recalibrated, require it.  If you want Pinnacle Station, you should install that now too.  Read <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1601463399">this Steam guide by Flabdad</a>.  It explains how to download and install the DLC.  It also specifies a way to fix the audio issue, but there have been reported problems with that method according to <a href="https://github.com/ValveSoftware/Proton/issues/177#issuecomment-417933175">this GitHub issue comment</a>.</p>
 <p>The method to fix the audio issue that I recommend is by <a href="https://www.protondb.com/app/17460#vQ4bY78F06">LennoxLuther on ProtonDB</a>.</p>
 <h1 id="before-installing-any-mods">Before Installing Any Mods</h1>
-<p>First thing to do is to download binkw23.dll and bink32.dll from <a href="https://github.com/Erik-JS/masseffect-binkw32/tree/master/ME1/Release">here</a>.  Put those files in /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/.  While testing, I&rsquo;ve actually installed texture mods without these two dlls and I didn&rsquo;t run into much trouble.  I would still install them anyway.</p>
+<p>First thing to do is to download <code>binkw23.dll</code> and <code>bink32.dll</code> from <a href="https://github.com/Erik-JS/masseffect-binkw32/tree/master/ME1/Release">here</a>.  Put those files in <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/</code>.  While testing, I&rsquo;ve actually installed texture mods without these two dlls and I didn&rsquo;t run into much trouble.  I would still install them anyway.</p>
 <h1 id="me1-recalibratedhttpswwwnexusmodscommasseffectmods114"><a href="https://www.nexusmods.com/masseffect/mods/114">ME1 Recalibrated</a></h1>
 <p>Downloaded the exe version of this mod because installing the exe is the same as installing Bring Down the Sky and Pinnacle Station exes.  Below is an example.</p>
 <div class="highlight"><div class="chroma">
@@ -100,29 +100,29 @@
 </div>
 </div><h1 id="improved-makohttpswwwnexusmodscommasseffectmods115"><a href="https://www.nexusmods.com/masseffect/mods/115">Improved Mako</a></h1>
 <p>Installing this mod is very similar to how you would do it on Windows.</p>
-<p>Keep a copy of the old BIOGame.ini somewhere in case you want to change back.</p>
-<p>Extract BIOGame.ini from the archive you downloaded and put it in /home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Config/ to replace the existing version.</p>
-<p>Alternatively, you can edit the original BIOGame.ini.  Look for RBPhysicsGravityScaling under the [Engine.WorldInfo] section and change it to 1.27 or your desired gravity levels.</p>
+<p>Keep a copy of the old <code>BIOGame.ini</code> somewhere in case you want to change back.</p>
+<p>Extract <code>BIOGame.ini</code> from the archive you downloaded and put it in <code>/home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Config/</code> to replace the existing version.</p>
+<p>Alternatively, you can edit the original <code>BIOGame.ini</code>.  Look for <code>RBPhysicsGravityScaling</code> under the <code>[Engine.WorldInfo]</code> section and change it to 1.27 or your desired gravity levels.</p>
 <h1 id="mass-effect-mouse-fixhttpswwwnexusmodscommasseffectmods82"><a href="https://www.nexusmods.com/masseffect/mods/82">Mass Effect Mouse Fix</a></h1>
 <p>Installing this mod is also very similar to how you would do it on Windows.</p>
-<p>Keep a copy of the old dinput8.dll somewhere in case you want to change back.</p>
-<p>Extract dinput8.dll from the archive you downloaded and put it in /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/.</p>
+<p>Keep a copy of the old <code>dinput8.dll</code> somewhere in case you want to change back.</p>
+<p>Extract <code>dinput8.dll</code> from the archive you downloaded and put it in <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/</code>.</p>
 <h1 id="enb-or-reshade-with-sweetfx-for-mass-effect-1httpswwwnexusmodscommasseffectmods54"><a href="https://www.nexusmods.com/masseffect/mods/54">ENB or Reshade with SweetFX for Mass Effect 1</a></h1>
 <p>Installing this mod is also very similar to how you would do it on Windows.</p>
-<p>Extract the rar archive into /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/.</p>
+<p>Extract the rar archive into <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/</code>.</p>
 <p>To uninstall, just delete those same files that you extracted.</p>
 <h1 id="a-lot-of-videos-alov-for-me1httpswwwnexusmodscommasseffectmods144"><a href="https://www.nexusmods.com/masseffect/mods/144">A Lot of Videos (ALOV) for ME1</a></h1>
 <p>Extract all desired files from the archives you downloaded.  From the main ALOV archive, you&rsquo;ll get two directories, BaseGame and BDTS.</p>
-<p>In BaseGames, there is a Movies directory.  Replace the contents of /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/BioGame/CookedPC/Movies/ with this directory&rsquo;s contents.</p>
-<p>In BDTS, there is also a Movies directory.  Replace the contents of /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/DLC/DLC_UNC/Movies/ with this directory&rsquo;s contents.</p>
-<p>To install the optional FTL loading screen, take the lone UCW_Loading_Flyby.bik and replace /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/BioGame/CookedPC/Movies/UCW_Loading_Flyby.bik with that file.</p>
+<p>In BaseGames, there is a <code>Movies</code> directory.  Replace the contents of <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/BioGame/CookedPC/Movies/</code> with this directory&rsquo;s contents.</p>
+<p>In BDTS, there is also a <code>Movies</code> directory.  Replace the contents of <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/DLC/DLC_UNC/Movies/</code> with this directory&rsquo;s contents.</p>
+<p>To install the optional FTL loading screen, take the lone <code>UCW_Loading_Flyby.bik</code> and replace <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/BioGame/CookedPC/Movies/UCW_Loading_Flyby.bik</code> with that file.</p>
 <h1 id="before-downloading-texture-mods">Before downloading texture mods&hellip;</h1>
 <p>Disclaimer: I had a lot of problems installing texture mods.  I was not able to install MEUITM and ALOT with 100% stability, i.e. my game crashed a couple times when I clicked &ldquo;Investigate&rdquo; in conversation.  Also, I ran into issues where shadows didn&rsquo;t function properly when I installed MEUITM first then ALOT after, e.g. default male Shepard&rsquo;s face became completely black.</p>
 <p>Download the Linux zips from <a href="https://github.com/MassEffectModder/MassEffectModder/releases">here</a> and extract.  If the Linux zips aren&rsquo;t in the current release, try another.</p>
-<p>First, run MassEffectModder.AppImage.  Set the game path, e.g. /home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/MassEffect.exe, and the user path, e.g. /home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect.  What this will do is create a configuration file named /home/user/.config/MassEffectModder/MassEffectModder.ini.  The reason I use the GUI instead of the CLI version is that MassEffectModderNoGui gets stuck at <a href="https://github.com/MassEffectModder/MassEffectModder/blob/master/MassEffectModder/MassEffectModder/CmdLine/CmdLineParams.cpp#L775">this line</a> due to an error.  I&rsquo;ve never written any program in C++, but I know that a single C++ program might run differently on different OSes as well as different machines.  That&rsquo;s likely why it doesn&rsquo;t work, which is evident from the owner of the MassEffectModder repository removing the Linux programs in the latest release at the time of writing.</p>
+<p>First, run <code>./MassEffectModder.AppImage</code>.  Set the game path, e.g. <code>/home/user/.local/share/Steam/steamapps/common/Mass\ Effect/Binaries/MassEffect.exe</code>, and the user path, e.g. <code>/home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect</code>.  What this will do is create a configuration file named <code>/home/user/.config/MassEffectModder/MassEffectModder.ini</code>.  The reason I use the GUI instead of the CLI version is that <code>MassEffectModderNoGui</code> gets stuck at <a href="https://github.com/MassEffectModder/MassEffectModder/blob/master/MassEffectModder/MassEffectModder/CmdLine/CmdLineParams.cpp#L775">this line</a> due to an error.  I&rsquo;ve never written any program in C++, but I know that a single C++ program might run differently on different OSes as well as different machines.  That&rsquo;s likely why it doesn&rsquo;t work, which is evident from the owner of the MassEffectModder repository removing the Linux programs in the latest release at the time of writing.</p>
 <p>If you&rsquo;re using Steam and the version of Proton you&rsquo;re using is 5.0 or newer, you can skip to the next section.</p>
-<p>If you&rsquo;re using an older version of Proton, you&rsquo;ll should enable the PROTON_FORCE_LARGE_ADDRESS_AWARE launch option because it&rsquo;s not enabled by default unlike Proton 5.0 and newer.  You can skip to the next section.</p>
-<p>Otherwise, you should use MassEffectModderNoGui to apply the large address awareness fix to ME1.  Below is an example.</p>
+<p>If you&rsquo;re using an older version of Proton, you&rsquo;ll should enable the <code>PROTON_FORCE_LARGE_ADDRESS_AWARE</code> launch option because it&rsquo;s not enabled by default unlike Proton 5.0 and newer.  You can skip to the next section.</p>
+<p>Otherwise, you should use <code>./MassEffectModderNoGui</code> to apply the large address awareness fix to ME1.  Below is an example.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -135,10 +135,10 @@
 <h1 id="meuitmhttpswwwnexusmodscommasseffectmods1-and-a-lot-of-textures-alot-for-me1httpswwwnexusmodscommasseffectmods83"><a href="https://www.nexusmods.com/masseffect/mods/1">MEUITM</a> and <a href="https://www.nexusmods.com/masseffect/mods/83">A Lot Of Textures (ALOT) for ME1</a></h1>
 <p>This section will be to install both MEUITM and ALOT.</p>
 <p>Once you have the zip archives, extract the contents.</p>
-<p>For MEUITM, in the mods directory, there will be many mem files.  Some mems will overwrite each other.  Check installer.ini, which was also extracted, to see which files correspond to which texture packs.  Choose one of each type and move or delete the others.  For example, I deleted Eyes_Vibrant.mem and kept Eyes_Vanillastyle.mem.</p>
-<p>There will also be some zip archives in the MEUITM directory.  I&rsquo;ve never tried installing them, but I suspect installing them only requires extracting the files to the proper locations similar to the SweetFX mod.</p>
+<p>For MEUITM, in the mods directory, there will be many mem files.  Some mems will overwrite each other.  Check <code>installer.ini</code>, which was also extracted, to see which files correspond to which texture packs.  Choose one of each type and move or delete the others.  For example, I deleted <code>Eyes_Vibrant.mem</code> and kept <code>Eyes_Vanillastyle.mem</code>.</p>
+<p>There will also be some zip archives in the <code>MEUITM</code> directory.  I&rsquo;ve never tried installing them, but I suspect installing them only requires extracting the files to the proper locations similar to the SweetFX mod.</p>
 <p>Consolidate the MEUITM and ALOT mem files into one directory.  Typically, the MEUITM is installed before ALOT.  With all mem files in one directory, the ALOT mems will be installed first since those files come first lexigraphically.  If you want to ALOT textures to override MEUITM textures, I would add some z&rsquo;s to the beginning of the ALOT mem files.  To check if the ALOT files were properly installed after MEUITM, compare your game to <a href="https://www.nexusmods.com/masseffect/mods/1?tab=images">these photos</a>.</p>
-<p>Use MassEffectModderNoGui to install the textures.  Below is an example.</p>
+<p>Use <code>./MassEffectModderNoGui</code> to install the textures.  Below is an example.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -147,11 +147,11 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">/home/user/Games/mass-effect/mods/MassEffectModderNoGui --install-mods --gameid 1 --input /home/user/Games/mass-effect/mods/MEUITM/mods/ --alot-mode --limit-2k
 </code></pre></td></tr></table>
 </div>
-</div><p>If you want to try the 4K textures, remove the &ndash;limit-2k flag.</p>
+</div><p>If you want to try the 4K textures, remove the <code>--limit-2k</code> flag.</p>
 <p>If you run into issues here, you&rsquo;ll need to reinstall your game (I hope you have a backup!) and all other mods.</p>
 <h1 id="after-installing-texture-mods">After installing texture mods&hellip;</h1>
 <p>This section is optional.  The reason this section is optional is because although the textures looked better when I did, I felt that the game crashed more than when I skipped this step.  Skipping this step should reduce and possibly eliminate crashes.  I say &ldquo;possibly eliminate&rdquo; because I played the last 10 hours of a playthrough with the original BIOEngine.ini and experienced no crashes.</p>
-<p>Use MassEffectModderNoGui to update the BIOEngine.ini.  Below is an example.</p>
+<p>Use <code>./MassEffectModderNoGui</code> to update the <code>BIOEngine.ini</code>.  Below is an example.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -160,8 +160,8 @@
 <pre class="chroma"><code class="language-fallback" data-lang="fallback">/home/user/Games/mass-effect/mods/MassEffectModderNoGui --apply-lods-gfx --gameid 1 --meuitm-mode --limit-2k
 </code></pre></td></tr></table>
 </div>
-</div><p>I would not recommend removing the &ndash;limit-2k flag.  My game crashed on startup when I did.</p>
-<p>If you want to undo this, you can move /home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Config/BIOEngine.ini out of the Config directory and run Mass Effect.  This should generate the original ini.</p>
+</div><p>I would not recommend removing the <code>--limit-2k</code> flag.  My game crashed on startup when I did.</p>
+<p>If you want to undo this, you can move <code>/home/user/.local/share/Steam/steamapps/compatdata/17460/pfx/drive_c/users/steamuser/My\ Documents/BioWare/Mass\ Effect/Config/BIOEngine.ini</code> out of the <code>Config</code> directory and run Mass Effect.  This should generate the original ini.</p>
 <h1 id="final-remarks">Final Remarks</h1>
 <p>Feel free to ask questions if something doesn&rsquo;t work.  I tried a lot of things to get these mods to work so I might have forgotten to add a step or something.</p>
 <p>Okay, that&rsquo;s all.  Good luck and have fun!</p>
