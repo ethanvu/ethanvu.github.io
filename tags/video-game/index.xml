@@ -7,17 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020, Ethan Vu, Dan Weru, and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 14:25:03 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 09:32:17 -0400</lastBuildDate>
     
 	<atom:link href="https://ethanvu.github.io/tags/video-game/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Polygoneer (2017) Review</title>
+      <link>https://ethanvu.github.io/post/video-game-reviews/polygoneer-2017/</link>
+      <pubDate>Sun, 05 Jul 2020 09:32:17 -0400</pubDate>
+      
+      <guid>https://ethanvu.github.io/post/video-game-reviews/polygoneer-2017/</guid>
+      <description>Playing Polygoneer makes me think of John Wick hunting the Russian kid in the nightclub from the first film. Shooting at bad guys coming from all sides with pretty shapes, colors, and a bumpin’ soundtrack in the background. Polygoneer lacks the excitement that John Wick (2014) has however.
+Unlocking stages is extremely easy. There are world leaderboards for each level, but they don’t get harder the longer one survives. At least I haven&amp;rsquo;t been able to see one because I typically end my runs after 90-ish seconds due to the monotony.</description>
+    </item>
+    
+    <item>
       <title>Installing ALOT, ALOV, MEUITM, and other mods for Mass Effect on Linux</title>
-      <link>https://ethanvu.github.io/post/linux-gaming/modding-mass-effect/</link>
+      <link>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</link>
       <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
       
-      <guid>https://ethanvu.github.io/post/linux-gaming/modding-mass-effect/</guid>
+      <guid>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</guid>
       <description>Introduction Valve&amp;rsquo;s Proton allows Steam users to run games that don&amp;rsquo;t have a native Linux implementation on their Linux machines. It&amp;rsquo;s amazing. Mass Effect is has a Gold rating on ProtonDB which means it runs well when using Proton, with minor adjustments. If you have the game on Origin or you have a physical copy, you can also play on Linux, but you&amp;rsquo;ll have to use Lutris or something similar instead.</description>
     </item>
     

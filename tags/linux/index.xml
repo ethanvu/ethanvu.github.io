@@ -14,10 +14,10 @@
     
     <item>
       <title>Installing ALOT, ALOV, MEUITM, and other mods for Mass Effect on Linux</title>
-      <link>https://ethanvu.github.io/post/linux-gaming/modding-mass-effect/</link>
+      <link>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</link>
       <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
       
-      <guid>https://ethanvu.github.io/post/linux-gaming/modding-mass-effect/</guid>
+      <guid>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</guid>
       <description>Introduction Valve&amp;rsquo;s Proton allows Steam users to run games that don&amp;rsquo;t have a native Linux implementation on their Linux machines. It&amp;rsquo;s amazing. Mass Effect is has a Gold rating on ProtonDB which means it runs well when using Proton, with minor adjustments. If you have the game on Origin or you have a physical copy, you can also play on Linux, but you&amp;rsquo;ll have to use Lutris or something similar instead.</description>
     </item>
     
