@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mass Effect on Ethan Vu</title>
-    <link>https://ethanvu.github.io/tags/mass-effect/</link>
-    <description>Recent content in Mass Effect on Ethan Vu</description>
+    <title>5 on Ethan Vu</title>
+    <link>https://ethanvu.github.io/tags/5/</link>
+    <description>Recent content in 5 on Ethan Vu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020, Ethan Vu, Dan Weru, and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sun, 06 Sep 2020 02:51:17 -0400</lastBuildDate>
     
-	<atom:link href="https://ethanvu.github.io/tags/mass-effect/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ethanvu.github.io/tags/5/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       
       <guid>https://ethanvu.github.io/post/video-game-reviews/mass-effect-2007/</guid>
       <description>One of the most harrowing thoughts is that we humans might be all alone in the Universe. When the Sun inevitably devours Earth, will there be no one left to experience the world and create stories? BioWare imagines a galaxy where the answer is NO in Mass Effect. This galaxy is buzzing with life and adventure. It’s rife with conflict and problems, but they’re not unsolvable. In fact, they’re waiting to be solved… by the right person.</description>
-    </item>
-    
-    <item>
-      <title>Installing ALOT, ALOV, MEUITM, and other mods for Mass Effect on Linux</title>
-      <link>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</link>
-      <pubDate>Sun, 21 Jun 2020 14:25:03 -0400</pubDate>
-      
-      <guid>https://ethanvu.github.io/post/video-games-on-linux/modding-mass-effect/</guid>
-      <description>Introduction Valve&amp;rsquo;s Proton allows Steam users to run games that don&amp;rsquo;t have a native Linux implementation on their Linux machines. It&amp;rsquo;s amazing. Mass Effect is has a Gold rating on ProtonDB which means it runs well when using Proton, with minor adjustments. If you have the game on Origin or you have a physical copy, you can also play on Linux, but you&amp;rsquo;ll have to use Lutris or something similar instead.</description>
     </item>
     
   </channel>
